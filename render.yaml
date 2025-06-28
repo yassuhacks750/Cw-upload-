@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: saini-txt-direct
+    name: cw txt upload 
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/nikhilsainiop/Saini-txt-direct
+    repo: https://github.com/yassuhacks750/Cw-upload-
     branch: main
     autoDeploy: false
     envVars:
